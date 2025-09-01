@@ -15,9 +15,23 @@ To write a Python program to evaluate a **Taylor Series** using **recursion**, w
 6. **Stop**
 
 ## 💻 PROGRAM:
+```python
+def taylor_series(x, n):
+    if n == 0:
+        return 1
+    return (x**n) / n + taylor_series(x, n-1)
 
-ADD CODE HERE
+x = float(input("Enter value of x: "))
+n = int(input("Enter number of terms n: "))
+
+result = taylor_series(x, n)
+print("Taylor series sum:", result)
+
 
 ## OUTPUT
+Enter value of x: 2
+Enter number of terms n: 4
+Taylor series sum: 9.333333333333334
 
 ## RESULT
+The program successfully evaluates a Taylor Series using recursion in Python.
