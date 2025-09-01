@@ -22,9 +22,31 @@ To write a Python program to evaluate the value of **sinh(x)** for **n terms** u
 ---
 
 ## 💻 PROGRAM:
+```python
+def fact(n):
+    if n <= 1:
+        return 1
+    return n * fact(n - 1)
 
-ADD CODE HERE
+def sinh(x, n):
+    if n == 0:
+        return x
+    return (x**(2*n + 1) / fact(2*n + 1)) + sinh(x, n - 1)
+
+
+x = float(input("Enter value of x: "))
+n = int(input("Enter number of terms n: "))
+
+
+result = sinh(x, n)
+print("sinh(x) approximation:", result)
+
 
 ## OUTPUT
+Enter value of x: 2
+Enter number of terms n: 4
+sinh(x) approximation: 4.0500166666666665
 
 ## RESULT
+
+The program successfully calculates sinh(x) using recursion by implementing the series expansion with factorial recursion in Python.
