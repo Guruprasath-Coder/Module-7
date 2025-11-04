@@ -41,11 +41,9 @@ n = int(input("Enter number of terms n: "))
 result = sinh(x, n)
 print("sinh(x) approximation:", result)
 
-
+```
 ## OUTPUT
-Enter value of x: 2
-Enter number of terms n: 4
-sinh(x) approximation: 4.0500166666666665
+<img width="550" height="225" alt="image" src="https://github.com/user-attachments/assets/eb2d8220-487d-4752-9657-c21830280ea6" />
 
 ## RESULT
 
