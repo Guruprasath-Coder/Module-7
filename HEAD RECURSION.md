@@ -31,12 +31,11 @@ if num % 2 != 0:
 
 fun(num)
 
+```
 
 ## OUTPUT
-Enter a number: 6
-2
-4
-6
+<img width="1254" height="256" alt="image" src="https://github.com/user-attachments/assets/c49e26d9-1851-4c1a-a8c8-758fd3182596" />
+
 
 ## RESULT
 The program successfully demonstrates Head Recursion in Python. The recursive call is made at the beginning, and results are printed during the backtracking phase, generating a sequence of even numbers.
