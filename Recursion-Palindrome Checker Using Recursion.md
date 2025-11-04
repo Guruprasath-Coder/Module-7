@@ -39,10 +39,9 @@ if is_palindrome(string.lower()):
     print("The string is a palindrome")
 else:
     print("The string is not a palindrome")
-
+```
 ## OUTPUT
-Enter a string: madam
-The string is a palindrome
+<img width="356" height="166" alt="image" src="https://github.com/user-attachments/assets/ef975f79-7672-4d3f-b99f-2364fdcfeb64" />
 
 ## RESULT
 The program successfully checks whether a given string is a palindrome using recursion.
