@@ -26,12 +26,10 @@ n = int(input("Enter number of terms n: "))
 
 result = taylor_series(x, n)
 print("Taylor series sum:", result)
-
+```
 
 ## OUTPUT
-Enter value of x: 2
-Enter number of terms n: 4
-Taylor series sum: 9.333333333333334
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/47cda7a1-6e33-4a39-be6f-1f9f2d152683" />
 
 ## RESULT
 The program successfully evaluates a Taylor Series using recursion in Python.
