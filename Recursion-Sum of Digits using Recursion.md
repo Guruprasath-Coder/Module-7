@@ -30,10 +30,10 @@ result = sum_digit(num)
 
 print("Sum of digits:", result)
 
-
+```
 ## OUTPUT
-Enter a number: 1234
-Sum of digits: 10
+<img width="467" height="220" alt="Screenshot 2025-09-08 085403" src="https://github.com/user-attachments/assets/6966fc70-cf5d-4722-8f75-20cf7a6682cb" />
+
 
 ## RESULT
 The program successfully calculates the sum of digits of a number using recursion in Python.
